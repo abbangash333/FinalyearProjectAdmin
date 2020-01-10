@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/miising_post_menu"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Person Detail" />
+
+    <item
+        android:id="@+id/blood_post_menu"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Blood Detail" />
+</menu>

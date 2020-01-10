@@ -9,8 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".addDriver.DeleteDriverDetail"
-            android:parentActivityName=".addDriver.AddDriver"></activity>
+        <activity android:name=".centerData.CenterDataMain"
+            android:parentActivityName=".HomeDashBoard"/>
+        <activity
+            android:name=".ChangeProfile"
+            android:parentActivityName=".HomeDashBoard" />
+        <activity
+            android:name=".missingPersonAdmin.DeleteMissingPosts"
+            android:parentActivityName=".missingPersonAdmin.MissingPersonUploadData" />
+        <activity
+            android:name=".missingPersonAdmin.MissingPersonUploadData"
+            android:parentActivityName=".HomeDashBoard" />
+        <activity
+            android:name=".bloodRequest.DeletePosts"
+            android:parentActivityName=".bloodRequest.BloodRequest" />
+        <activity
+            android:name=".bloodRequest.BloodRequest"
+            android:parentActivityName=".HomeDashBoard" />
+        <activity
+            android:name=".addDriver.DeleteDriverDetail"
+            android:parentActivityName=".addDriver.AddDriver" />
         <activity
             android:name=".addDriver.AddDriver"
             android:parentActivityName=".HomeDashBoard" />

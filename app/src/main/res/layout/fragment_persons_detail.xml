@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".centerData.PersonsDetailFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Person Name"
+                android:textColor="@color/blackColor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="@drawable/rounded_corner"
+                android:drawableLeft="@drawable/blood_text_view_family"
+                android:drawablePadding="10dp"
+                android:hint="Jaffar"
+                android:inputType="phone"
+                android:paddingLeft="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Person Age"
+                android:textColor="@color/blackColor"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/phoneNumbr"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="@drawable/rounded_corner"
+                android:drawableLeft="@drawable/age_icon"
+                android:drawablePadding="10dp"
+                android:hint="20"
+                android:inputType="phone"
+                android:paddingLeft="8dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_corner"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="showPopup"
+                android:layout_gravity="center"
+                android:background="@drawable/button_sign_in"
+                android:text="Select Catagory"
+                android:textColor="@color/whiteText"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_sign_in"
+            android:text="Post Detail"
+            android:textColor="@color/whiteText"></Button>
+
+
+
+    </LinearLayout>
+</FrameLayout>

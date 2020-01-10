@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".centerData.BloodDetailFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blood Group"
+                android:textColor="@color/blackColor"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="@drawable/rounded_corner"
+                android:drawablePadding="10dp"
+                android:hint="Ab+"
+                android:inputType="phone"
+                android:paddingLeft="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:textColor="@color/blackColor"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/phoneNumbr"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="@drawable/rounded_corner"
+                android:drawablePadding="10dp"
+                android:hint="1 drop"
+                android:inputType="phone"
+                android:paddingLeft="8dp" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_sign_in"
+            android:text="Post Detail"
+            android:textColor="@color/whiteText"></Button>
+
+
+
+    </LinearLayout>
+</FrameLayout>

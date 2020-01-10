@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/children_catagory"
+        android:title="Children" />
+
+    <item
+        android:id="@+id/Orphans"
+        android:title="Orphans" />
+
+    <item
+        android:id="@+id/widows"
+        android:title="Widows" />
+
+</menu>
